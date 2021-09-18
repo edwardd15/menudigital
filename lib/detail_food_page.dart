@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'search_bar.dart';
+import 'components/card_component.dart';
 
 class DetailFood extends StatelessWidget {
-  // const DetailFood({ Key? key }) : super(key: key);
+  const DetailFood({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
