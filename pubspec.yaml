@@ -65,6 +65,7 @@ flutter:
     - images/transaction.png
     - images/patternfood.png
     - images/patternfood_light.png
+    - images/food.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
