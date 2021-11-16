@@ -22,7 +22,7 @@ class StartPage extends StatelessWidget {
                 image: AssetImage('images/patternfood.png'),
                 repeat: ImageRepeat.repeat)),
         child: Column(
-          children: const [
+          children: [
             RestaurantImage(
               radius: 100,
               imageUrl:
@@ -34,8 +34,9 @@ class StartPage extends StatelessWidget {
               label: "Order number",
             ),
             SizedBox(height: 40),
-            CustomButton(
-              text: 'Continue'
+            CustomLongButton(
+              text: 'Continue',
+              onTap: () {},
             ),
           ],
         ));

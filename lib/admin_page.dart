@@ -81,6 +81,7 @@ class AdminPage extends StatelessWidget {
                               children: [
                                 TableInput(hintText: "Table number"),
                                 AccentButton(
+                                  onTap: () {},
                                   text: 'Confirm',
                                   textStyle: TextStyle(
                                       fontWeight: FontWeight.w400,
@@ -100,7 +101,7 @@ class AdminPage extends StatelessWidget {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
-                              ButtonOutline(text: 'Test Print'),
+                              CustomOutlinedButton(text: 'Test Print'),
                               SwitchAutoButton(
                                 value: true,
                               )
@@ -157,7 +158,7 @@ class AdminPage extends StatelessWidget {
                   Row(
                     children: [
                       Expanded(
-                          child: ButtonOutline(
+                          child: CustomOutlinedButton(
                         text: 'Close Transaction',
                         textStyle: TextStyle(
                             fontSize: 14,
@@ -170,6 +171,7 @@ class AdminPage extends StatelessWidget {
                       ),
                       Expanded(
                           child: AccentButton(
+                        onTap: () {},
                         text: 'Print Receipt',
                         verticalPadding: 14,
                         backgroundColor: Color(0xff24232F),
@@ -267,7 +269,6 @@ class ReceiptHeader extends StatelessWidget {
   }
 }
 
-
 class HistoryListContainer extends StatelessWidget {
   const HistoryListContainer({Key? key}) : super(key: key);
 
@@ -348,7 +349,7 @@ class HistoryItem extends StatelessWidget {
                     )
                   ],
                 ),
-                ButtonOutline(
+                CustomOutlinedButton(
                   text: "Unclose",
                   textStyle: TextStyle(fontSize: 11),
                 )

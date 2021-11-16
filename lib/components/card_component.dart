@@ -431,6 +431,7 @@ class InfoHargaButton extends StatelessWidget {
               height: 41,
               child: Expanded(
                 child: AccentButton(
+                  onTap: (){},
                   text: "Order Now",
                   backgroundColor: Colors.white,
                 ),

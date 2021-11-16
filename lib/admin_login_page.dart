@@ -22,7 +22,7 @@ class AdminLoginPage extends StatelessWidget {
                 image: AssetImage('images/patternfood.png'),
                 repeat: ImageRepeat.repeat)),
         child: Column(
-          children: const [
+          children: [
             RestaurantImage(
               radius: 100,
               imageUrl:
@@ -38,7 +38,7 @@ class AdminLoginPage extends StatelessWidget {
               label: "Password",
             ),
             SizedBox(height: 40),
-            CustomButton(text: 'Continue'),
+            CustomLongButton(text: 'Continue', onTap: (){}),
           ],
         ));
   }

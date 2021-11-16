@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:menudigital/carts_page.dart';
+import 'package:menudigital/summary_page.dart';
 import 'package:menudigital/start_page.dart';
 
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         theme: ThemeData(fontFamily: "Poppins"),
         home: Scaffold(
-          body: CartsPage()
+          body: SummaryPage()
         ));
   }
 }
