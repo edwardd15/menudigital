@@ -399,7 +399,6 @@ class InfoHargaButton extends StatelessWidget {
                     style: TextStyle(
                       color: Color(0xff24232F),
                       fontSize: 15,
-                      fontFamily: "Poppins",
                       fontWeight: FontWeight.w600,
                     )),
                 Row(
@@ -408,7 +407,6 @@ class InfoHargaButton extends StatelessWidget {
                         style: TextStyle(
                           color: Color(0xff24232F),
                           fontSize: 15,
-                          fontFamily: "Poppins",
                           fontWeight: FontWeight.w400,
                         )),
                     Padding(
@@ -417,7 +415,6 @@ class InfoHargaButton extends StatelessWidget {
                           style: TextStyle(
                             color: Color(0xff24232F),
                             fontSize: 15,
-                            fontFamily: "Poppins",
                             fontWeight: FontWeight.w400,
                           )),
                     ),
